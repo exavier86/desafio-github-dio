@@ -1,0 +1,10 @@
+Link para Download do Git: 
+
+https://git-scm.com/downloads
+
+
+
+Instalação do Git Bash
+
+- é incluído como parte do pacote Git.
+Baixe e instale o Git, após baixar, entre na tela Iniciar ou em pesquisar digite Git Bash.

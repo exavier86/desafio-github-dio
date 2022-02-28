@@ -1,0 +1,30 @@
+1. IMPORTANTE: certifique-se de estar identificado no Git do seu computador (nome e email)
+Verifique o "Cofre" (gerenciador de credenciais)
+git config --list
+git config --global user.name "Adiciona seu nome cadastrado no GitHub"
+git config --global user.email "Adiciona seu email cadastrado no GitHub"
+
+2. Se o projeto já não estiver no seu computador, Clonar o repositório do Github
+git clone https://github.com/exavier86/desafio-github-dio.git
+ATENÇÃO: o caminho referente é só um exemplo.
+
+3. Altere o que você precisar no projeto
+
+4. Commitar as mudanças feitas no projeto
+
+4.1. Verificar arquivos: 
+git status
+
+modified    >>>>>>>>>                    >>>>>>>>>>
+untracked   >>>>>>>>>       staged       >>>>>>>>>>      commited
+deleted     >>>>>>>>>                    >>>>>>>>>>
+
+4.2. Realizar o commit: 
+git add .
+git commit -m "Mensagem explicativa"
+
+4.3. Listar histórico de commits: 
+git log --oneline
+
+5. Salvar projeto atualizado no seu Github (push)
+git push
